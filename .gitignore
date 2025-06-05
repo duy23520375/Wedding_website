@@ -1,2 +1,14 @@
+# Bỏ qua thư mục node_modules
 node_modules/
+
+# Bỏ qua file package-lock.json (nếu không muốn đẩy lên)
+package-lock.json
+
+# Bỏ qua các file môi trường (nếu có)
 .env
+.env.local
+
+
+
+# Bỏ qua các file hệ thống (tuỳ chọn)
+.DS_Store
